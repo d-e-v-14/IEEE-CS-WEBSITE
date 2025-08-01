@@ -1,9 +1,9 @@
 import React, { useEffect, useRef } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import Logo from './images/ieee_logo.png';
-import Left from './images/1.png';
-import Right from './images/2.png';
+import Logo from './ieee_logo.png';
+import Left from './1.png';
+import Right from './2.png';
 import OurStory from '../homepage/OurStory';
 
 gsap.registerPlugin(ScrollTrigger);

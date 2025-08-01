@@ -14,7 +14,7 @@ const ProjectDisplay = ({ data }) => {
     >
       <div className="w-1/2 pl-20">
         <div className="relative w-full">
-          <h2 className="text-6xl font-bold">{data.title}</h2>
+          <h2 className="text-6xl font-bold">projects</h2>
         </div>
 
         <div className="relative mt-1 w-[30vw]">
