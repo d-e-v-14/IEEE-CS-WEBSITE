@@ -1,11 +1,10 @@
 import React from "react";
-import ieeeLogo from "/Users/anweshalaha/Desktop/IEEE-CS FOOTER/IEEE-CS-WEBSITE/src/assets/ieeelogo.png";
-import centerImage from "/Users/anweshalaha/Desktop/IEEE-CS FOOTER/IEEE-CS-WEBSITE/src/assets/image.png";
+import ieeeLogo from "./ieeelogo.png";
+import centerImage from "./image.png";
 
 const Contact = () => {
   return (
     <div className="min-h-screen w-full bg-black flex flex-col justify-end items-center relative overflow-hidden font-mono">
-      {/* Arch Background */}
       <div
         className="absolute bottom-0 left-0 w-full z-0"
         style={{
@@ -19,7 +18,6 @@ const Contact = () => {
         }}
       ></div>
 
-      {/* Main Content */}
       <div
         className="absolute z-10 max-w-6xl w-full grid grid-cols-1 md:grid-cols-3 gap-8 px-10"
         style={{
@@ -29,7 +27,7 @@ const Contact = () => {
           position: "absolute",
         }}
       >
-        {/* Left: Contact Form */}
+
         <div>
           <h2 className="text-2xl mb-6 tracking-widest">Contact Us</h2>
           <div className="space-y-4">
@@ -71,7 +69,7 @@ const Contact = () => {
           </div>
         </div>
 
-        {/* Center: Logo */}
+
         <div className="flex flex-col items-center justify-center">
           <img
             src={ieeeLogo}
@@ -81,7 +79,6 @@ const Contact = () => {
           />
         </div>
 
-        {/* Right: Contact Info */}
         <div>
           <h2 className="text-base mb-1 mt-8">Get in Touch</h2>
           <p className="text-base">IEEECS@vit.ac.in</p>
@@ -96,7 +93,7 @@ const Contact = () => {
         </div>
       </div>
 
-      {/* Footer */}
+
       <div className="w-full relative z-10 flex flex-col md:flex-row justify-between items-center px-12 pb-4 text-black text-xs gap-4 md:gap-0">
         <div className="flex gap-8">
           <a href="#">PRIVACY POLICY</a>
@@ -106,7 +103,7 @@ const Contact = () => {
         <div className="flex gap-3 items-center">
           <span>SEE WHAT WE'RE UP TO</span>
 
-          {/* Instagram */}
+
           <a
             href="https://www.instagram.com/ieeecs_vit/"
             target="_blank"
@@ -120,7 +117,6 @@ const Contact = () => {
             />
           </a>
 
-          {/* Facebook */}
           <a
             href="https://www.facebook.com/ieeecsvit"
             target="_blank"
@@ -134,7 +130,6 @@ const Contact = () => {
             />
           </a>
 
-          {/* LinkedIn */}
           <a
             href="https://www.linkedin.com/company/ieee-cs-vit"
             target="_blank"
@@ -148,7 +143,6 @@ const Contact = () => {
             />
           </a>
 
-          {/* Twitter */}
           <a
             href="https://twitter.com/ieeecsvit"
             target="_blank"
