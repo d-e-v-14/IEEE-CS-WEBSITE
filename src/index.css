@@ -1,7 +1,28 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Karantina:wght@300;400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Karantina:wght@300;400;700&family=Special+Elite&display=swap');
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 html, body {
   overflow-x: hidden;
+}
+
+@keyframes scrollRight {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+.animate-faster-scroll-right {
+  animation: scrollRight 30s linear infinite;
+  display: flex;
+  width: max-content;
 }

@@ -3,6 +3,7 @@ import Logo from './IEEECS.png';
 import Background from './paper_effect.png';
 import Team from './team.png';
 
+
 const OurStory = () => {
   return (
     <div className="relative w-screen min-h-screen overflow-hidden bg-white text-black z-0">
