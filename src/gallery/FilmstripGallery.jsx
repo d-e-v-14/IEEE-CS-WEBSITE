@@ -40,7 +40,7 @@ const FilmstripGallery = () => {
         </div>
       </div>
 
-      <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-[95%] h-[60px] bg-black z-10 overflow-hidden rounded-md">
+      <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-[95%] h-[190px] bg-black z-10 overflow-hidden rounded-md">
         <div className="flex w-[200%] space-x-12 px-8 items-end">
           {Array(30).fill(0).map((_, i) => (
             <div key={i} className="w-7 h-11 bg-[#f5a400] rounded-md"></div>
