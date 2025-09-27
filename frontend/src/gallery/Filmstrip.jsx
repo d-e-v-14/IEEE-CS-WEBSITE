@@ -91,7 +91,7 @@ const FilmstripGallery = () => {
                 src={src}
                 alt={`Gallery image ${(i % images.length) + 1}`}
                 className="object-cover shadow-2xl rounded-lg transition-transform duration-300 hover:scale-105  grayscale
-                   w-[90vw] sm:w-[350px] md:w-[450px] lg:w-[500px] xl:w-[550px] aspect-[4/3]"
+                   w-[90vw] sm:w-[350px] md:w-[450px] lg:w-[500px] xl:w-[650px] aspect-[4/3]"
                 onMouseEnter={() => (isPausedRef.current = true)}
                 onMouseLeave={() => (isPausedRef.current = false)}
                 onTouchStart={() => (isPausedRef.current = true)}
@@ -120,7 +120,7 @@ const FilmstripGallery = () => {
                 src={src}
                 alt={`Gallery image ${(i % images.length) + 1}`}
                 className="object-cover shadow-xl rounded-lg transition-transform duration-300 hover:scale-105 grayscale
-                   w-[90vw] sm:w-[350px] md:w-[450px] lg:w-[600px] xl:w-[650px] aspect-[4/3]"
+                   w-[90vw] sm:w-[350px] md:w-[450px] lg:w-[630px] xl:w-[665px] aspect-[4/3]"
                 onMouseEnter={() => (isPausedRef.current = true)}
                 onMouseLeave={() => (isPausedRef.current = false)}
                 onTouchStart={() => (isPausedRef.current = true)}
